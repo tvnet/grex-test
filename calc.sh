@@ -1,10 +1,13 @@
 #!/bin/bash
 
+### The script is for calulating the same dates for the previous year.
+
+
 set -u
 
+### vars can be changed, the previous  for YEARS_BEFORE was set 1.
 
-
-YEARS_BEFORE=1
+YEARS_BEFORE=10
 YEARS_AHEAD=10
 
 
